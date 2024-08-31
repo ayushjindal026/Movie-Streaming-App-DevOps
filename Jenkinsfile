@@ -1,6 +1,6 @@
 pipeline{
     agent {
-        label "ec2"
+        label "EC2"
     }
     environment {
         ENV = credentials('my-secret-id')
